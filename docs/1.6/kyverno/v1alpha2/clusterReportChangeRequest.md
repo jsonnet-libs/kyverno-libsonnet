@@ -24,8 +24,6 @@ permalink: /1.6/kyverno/v1alpha2/clusterReportChangeRequest/
   * [`fn withGeneration(generation)`](#fn-metadatawithgeneration)
   * [`fn withLabels(labels)`](#fn-metadatawithlabels)
   * [`fn withLabelsMixin(labels)`](#fn-metadatawithlabelsmixin)
-  * [`fn withManagedFields(managedFields)`](#fn-metadatawithmanagedfields)
-  * [`fn withManagedFieldsMixin(managedFields)`](#fn-metadatawithmanagedfieldsmixin)
   * [`fn withName(name)`](#fn-metadatawithname)
   * [`fn withNamespace(namespace)`](#fn-metadatawithnamespace)
   * [`fn withOwnerReferences(ownerReferences)`](#fn-metadatawithownerreferences)
@@ -33,6 +31,40 @@ permalink: /1.6/kyverno/v1alpha2/clusterReportChangeRequest/
   * [`fn withResourceVersion(resourceVersion)`](#fn-metadatawithresourceversion)
   * [`fn withSelfLink(selfLink)`](#fn-metadatawithselflink)
   * [`fn withUid(uid)`](#fn-metadatawithuid)
+* [`obj results`](#obj-results)
+  * [`fn withCategory(category)`](#fn-resultswithcategory)
+  * [`fn withMessage(message)`](#fn-resultswithmessage)
+  * [`fn withPolicy(policy)`](#fn-resultswithpolicy)
+  * [`fn withProperties(properties)`](#fn-resultswithproperties)
+  * [`fn withPropertiesMixin(properties)`](#fn-resultswithpropertiesmixin)
+  * [`fn withResources(resources)`](#fn-resultswithresources)
+  * [`fn withResourcesMixin(resources)`](#fn-resultswithresourcesmixin)
+  * [`fn withResult(result)`](#fn-resultswithresult)
+  * [`fn withRule(rule)`](#fn-resultswithrule)
+  * [`fn withScored(scored)`](#fn-resultswithscored)
+  * [`fn withSeverity(severity)`](#fn-resultswithseverity)
+  * [`fn withSource(source)`](#fn-resultswithsource)
+  * [`obj results.resourceSelector`](#obj-resultsresourceselector)
+    * [`fn withMatchExpressions(matchExpressions)`](#fn-resultsresourceselectorwithmatchexpressions)
+    * [`fn withMatchExpressionsMixin(matchExpressions)`](#fn-resultsresourceselectorwithmatchexpressionsmixin)
+    * [`fn withMatchLabels(matchLabels)`](#fn-resultsresourceselectorwithmatchlabels)
+    * [`fn withMatchLabelsMixin(matchLabels)`](#fn-resultsresourceselectorwithmatchlabelsmixin)
+    * [`obj results.resourceSelector.matchExpressions`](#obj-resultsresourceselectormatchexpressions)
+      * [`fn withKey(key)`](#fn-resultsresourceselectormatchexpressionswithkey)
+      * [`fn withOperator(operator)`](#fn-resultsresourceselectormatchexpressionswithoperator)
+      * [`fn withValues(values)`](#fn-resultsresourceselectormatchexpressionswithvalues)
+      * [`fn withValuesMixin(values)`](#fn-resultsresourceselectormatchexpressionswithvaluesmixin)
+  * [`obj results.resources`](#obj-resultsresources)
+    * [`fn withApiVersion(apiVersion)`](#fn-resultsresourceswithapiversion)
+    * [`fn withFieldPath(fieldPath)`](#fn-resultsresourceswithfieldpath)
+    * [`fn withKind(kind)`](#fn-resultsresourceswithkind)
+    * [`fn withName(name)`](#fn-resultsresourceswithname)
+    * [`fn withNamespace(namespace)`](#fn-resultsresourceswithnamespace)
+    * [`fn withResourceVersion(resourceVersion)`](#fn-resultsresourceswithresourceversion)
+    * [`fn withUid(uid)`](#fn-resultsresourceswithuid)
+  * [`obj results.timestamp`](#obj-resultstimestamp)
+    * [`fn withNanos(nanos)`](#fn-resultstimestampwithnanos)
+    * [`fn withSeconds(seconds)`](#fn-resultstimestampwithseconds)
 * [`obj scope`](#obj-scope)
   * [`fn withApiVersion(apiVersion)`](#fn-scopewithapiversion)
   * [`fn withFieldPath(fieldPath)`](#fn-scopewithfieldpath)
@@ -46,6 +78,11 @@ permalink: /1.6/kyverno/v1alpha2/clusterReportChangeRequest/
   * [`fn withMatchExpressionsMixin(matchExpressions)`](#fn-scopeselectorwithmatchexpressionsmixin)
   * [`fn withMatchLabels(matchLabels)`](#fn-scopeselectorwithmatchlabels)
   * [`fn withMatchLabelsMixin(matchLabels)`](#fn-scopeselectorwithmatchlabelsmixin)
+  * [`obj scopeSelector.matchExpressions`](#obj-scopeselectormatchexpressions)
+    * [`fn withKey(key)`](#fn-scopeselectormatchexpressionswithkey)
+    * [`fn withOperator(operator)`](#fn-scopeselectormatchexpressionswithoperator)
+    * [`fn withValues(values)`](#fn-scopeselectormatchexpressionswithvalues)
+    * [`fn withValuesMixin(values)`](#fn-scopeselectormatchexpressionswithvaluesmixin)
 * [`obj summary`](#obj-summary)
   * [`fn withError(err)`](#fn-summarywitherror)
   * [`fn withFail(fail)`](#fn-summarywithfail)
@@ -187,24 +224,6 @@ withLabelsMixin(labels)
 
 **Note:** This function appends passed data to existing values
 
-### fn metadata.withManagedFields
-
-```ts
-withManagedFields(managedFields)
-```
-
-"ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn't need to set or understand this field. A workflow can be the user's name, a controller's name, or the name of a specific apply path like \"ci-cd\". The set of fields is always in the version that the workflow used when modifying the object."
-
-### fn metadata.withManagedFieldsMixin
-
-```ts
-withManagedFieldsMixin(managedFields)
-```
-
-"ManagedFields maps workflow-id and version to the set of fields that are managed by that workflow. This is mostly for internal housekeeping, and users typically shouldn't need to set or understand this field. A workflow can be the user's name, a controller's name, or the name of a specific apply path like \"ci-cd\". The set of fields is always in the version that the workflow used when modifying the object."
-
-**Note:** This function appends passed data to existing values
-
 ### fn metadata.withName
 
 ```ts
@@ -262,6 +281,268 @@ withUid(uid)
 ```
 
 "UID is the unique in time and space value for this object. It is typically generated by the server on successful creation of a resource and is not allowed to change on PUT operations.\n\nPopulated by the system. Read-only. More info: http://kubernetes.io/docs/user-guide/identifiers#uids"
+
+## obj results
+
+"PolicyReportResult provides result details"
+
+### fn results.withCategory
+
+```ts
+withCategory(category)
+```
+
+"Category indicates policy category"
+
+### fn results.withMessage
+
+```ts
+withMessage(message)
+```
+
+"Message is a short user friendly description of the policy rule"
+
+### fn results.withPolicy
+
+```ts
+withPolicy(policy)
+```
+
+"Policy is the name of the policy"
+
+### fn results.withProperties
+
+```ts
+withProperties(properties)
+```
+
+"Properties provides additional information for the policy rule"
+
+### fn results.withPropertiesMixin
+
+```ts
+withPropertiesMixin(properties)
+```
+
+"Properties provides additional information for the policy rule"
+
+**Note:** This function appends passed data to existing values
+
+### fn results.withResources
+
+```ts
+withResources(resources)
+```
+
+"Resources is an optional reference to the resource checked by the policy and rule"
+
+### fn results.withResourcesMixin
+
+```ts
+withResourcesMixin(resources)
+```
+
+"Resources is an optional reference to the resource checked by the policy and rule"
+
+**Note:** This function appends passed data to existing values
+
+### fn results.withResult
+
+```ts
+withResult(result)
+```
+
+"Result indicates the outcome of the policy rule execution"
+
+### fn results.withRule
+
+```ts
+withRule(rule)
+```
+
+"Rule is the name of the policy rule"
+
+### fn results.withScored
+
+```ts
+withScored(scored)
+```
+
+"Scored indicates if this policy rule is scored"
+
+### fn results.withSeverity
+
+```ts
+withSeverity(severity)
+```
+
+"Severity indicates policy severity"
+
+### fn results.withSource
+
+```ts
+withSource(source)
+```
+
+"Source is an identifier for the policy engine that manages this report"
+
+## obj results.resourceSelector
+
+"ResourceSelector is an optional selector for policy results that apply to multiple resources. For example, a policy result may apply to all pods that match a label. Either a Resource or a ResourceSelector can be specified. If neither are provided, the result is assumed to be for the policy report scope."
+
+### fn results.resourceSelector.withMatchExpressions
+
+```ts
+withMatchExpressions(matchExpressions)
+```
+
+"matchExpressions is a list of label selector requirements. The requirements are ANDed."
+
+### fn results.resourceSelector.withMatchExpressionsMixin
+
+```ts
+withMatchExpressionsMixin(matchExpressions)
+```
+
+"matchExpressions is a list of label selector requirements. The requirements are ANDed."
+
+**Note:** This function appends passed data to existing values
+
+### fn results.resourceSelector.withMatchLabels
+
+```ts
+withMatchLabels(matchLabels)
+```
+
+"matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed."
+
+### fn results.resourceSelector.withMatchLabelsMixin
+
+```ts
+withMatchLabelsMixin(matchLabels)
+```
+
+"matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed."
+
+**Note:** This function appends passed data to existing values
+
+## obj results.resourceSelector.matchExpressions
+
+"matchExpressions is a list of label selector requirements. The requirements are ANDed."
+
+### fn results.resourceSelector.matchExpressions.withKey
+
+```ts
+withKey(key)
+```
+
+"key is the label key that the selector applies to."
+
+### fn results.resourceSelector.matchExpressions.withOperator
+
+```ts
+withOperator(operator)
+```
+
+"operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist."
+
+### fn results.resourceSelector.matchExpressions.withValues
+
+```ts
+withValues(values)
+```
+
+"values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch."
+
+### fn results.resourceSelector.matchExpressions.withValuesMixin
+
+```ts
+withValuesMixin(values)
+```
+
+"values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch."
+
+**Note:** This function appends passed data to existing values
+
+## obj results.resources
+
+"Resources is an optional reference to the resource checked by the policy and rule"
+
+### fn results.resources.withApiVersion
+
+```ts
+withApiVersion(apiVersion)
+```
+
+"API version of the referent."
+
+### fn results.resources.withFieldPath
+
+```ts
+withFieldPath(fieldPath)
+```
+
+"If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: \"spec.containers{name}\" (where \"name\" refers to the name of the container that triggered the event) or if no container name is specified \"spec.containers[2]\" (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future."
+
+### fn results.resources.withKind
+
+```ts
+withKind(kind)
+```
+
+"Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds"
+
+### fn results.resources.withName
+
+```ts
+withName(name)
+```
+
+"Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names"
+
+### fn results.resources.withNamespace
+
+```ts
+withNamespace(namespace)
+```
+
+"Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/"
+
+### fn results.resources.withResourceVersion
+
+```ts
+withResourceVersion(resourceVersion)
+```
+
+"Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency"
+
+### fn results.resources.withUid
+
+```ts
+withUid(uid)
+```
+
+"UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids"
+
+## obj results.timestamp
+
+"Timestamp indicates the time the result was found"
+
+### fn results.timestamp.withNanos
+
+```ts
+withNanos(nanos)
+```
+
+"Non-negative fractions of a second at nanosecond resolution. Negative second values with fractions must still have non-negative nanos values that count forward in time. Must be from 0 to 999,999,999 inclusive. This field may be limited in precision depending on context."
+
+### fn results.timestamp.withSeconds
+
+```ts
+withSeconds(seconds)
+```
+
+"Represents seconds of UTC time since Unix epoch 1970-01-01T00:00:00Z. Must be from 0001-01-01T00:00:00Z to 9999-12-31T23:59:59Z inclusive."
 
 ## obj scope
 
@@ -360,6 +641,44 @@ withMatchLabelsMixin(matchLabels)
 ```
 
 "matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is \"key\", the operator is \"In\", and the values array contains only \"value\". The requirements are ANDed."
+
+**Note:** This function appends passed data to existing values
+
+## obj scopeSelector.matchExpressions
+
+"matchExpressions is a list of label selector requirements. The requirements are ANDed."
+
+### fn scopeSelector.matchExpressions.withKey
+
+```ts
+withKey(key)
+```
+
+"key is the label key that the selector applies to."
+
+### fn scopeSelector.matchExpressions.withOperator
+
+```ts
+withOperator(operator)
+```
+
+"operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist."
+
+### fn scopeSelector.matchExpressions.withValues
+
+```ts
+withValues(values)
+```
+
+"values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch."
+
+### fn scopeSelector.matchExpressions.withValuesMixin
+
+```ts
+withValuesMixin(values)
+```
+
+"values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch."
 
 **Note:** This function appends passed data to existing values
 
