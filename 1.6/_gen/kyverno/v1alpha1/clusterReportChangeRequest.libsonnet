@@ -47,7 +47,7 @@
     apiVersion: 'kyverno.io/v1alpha1',
     kind: 'ClusterReportChangeRequest',
   } + self.metadata.withName(name=name) + self.metadata.withAnnotations(annotations={
-    'tanka.dev/namespaced': 'true',
+    'tanka.dev/namespaced': 'false',
   }),
   '#results':: d.obj(help='"PolicyReportResult provides result details"'),
   results: {

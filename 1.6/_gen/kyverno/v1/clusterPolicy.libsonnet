@@ -47,7 +47,7 @@
     apiVersion: 'kyverno.io/v1',
     kind: 'ClusterPolicy',
   } + self.metadata.withName(name=name) + self.metadata.withAnnotations(annotations={
-    'tanka.dev/namespaced': 'true',
+    'tanka.dev/namespaced': 'false',
   }),
   '#spec':: d.obj(help='"Spec declares policy behaviors."'),
   spec: {
