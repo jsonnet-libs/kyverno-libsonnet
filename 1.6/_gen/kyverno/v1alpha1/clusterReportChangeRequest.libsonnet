@@ -110,6 +110,8 @@
     withScored(scored): { scored: scored },
     '#withSeverity':: d.fn(help='"Severity indicates policy severity"', args=[d.arg(name='severity', type=d.T.string)]),
     withSeverity(severity): { severity: severity },
+    '#withStatus':: d.fn(help='"Status indicates the result of the policy rule check"', args=[d.arg(name='status', type=d.T.string)]),
+    withStatus(status): { status: status },
   },
   '#scope':: d.obj(help='"Scope is an optional reference to the report scope (e.g. a Deployment, Namespace, or Node)"'),
   scope: {
