@@ -42,7 +42,6 @@ permalink: /1.6/kyverno/v1alpha1/reportChangeRequest/
   * [`fn withRule(rule)`](#fn-resultswithrule)
   * [`fn withScored(scored)`](#fn-resultswithscored)
   * [`fn withSeverity(severity)`](#fn-resultswithseverity)
-  * [`fn withStatus(status)`](#fn-resultswithstatus)
   * [`obj results.resourceSelector`](#obj-resultsresourceselector)
     * [`fn withMatchExpressions(matchExpressions)`](#fn-resultsresourceselectorwithmatchexpressions)
     * [`fn withMatchExpressionsMixin(matchExpressions)`](#fn-resultsresourceselectorwithmatchexpressionsmixin)
@@ -365,14 +364,6 @@ withSeverity(severity)
 ```
 
 "Severity indicates policy severity"
-
-### fn results.withStatus
-
-```ts
-withStatus(status)
-```
-
-"Status indicates the result of the policy rule check"
 
 ## obj results.resourceSelector
 
