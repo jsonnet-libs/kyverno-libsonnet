@@ -2,277 +2,457 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1/clusterPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1/policy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1alpha2/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1alpha2/admissionReport/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1alpha2/backgroundScanReport/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1alpha2/clusterAdmissionReport/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1alpha2/clusterBackgroundScanReport/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v1beta1/updateRequest/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2alpha1/cleanupPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2alpha1/clusterCleanupPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2alpha1/policyException/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2beta1/cleanupPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2beta1/clusterCleanupPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2beta1/clusterPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2beta1/policy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.11/kyverno/v2beta1/policyException/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1/clusterPolicy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1/policy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1alpha2/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1alpha2/admissionReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1alpha2/backgroundScanReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1alpha2/clusterAdmissionReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1alpha2/clusterBackgroundScanReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1beta1/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v1beta1/updateRequest/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/admissionReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/backgroundScanReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/cleanupPolicy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/clusterAdmissionReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/clusterBackgroundScanReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/clusterCleanupPolicy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/policyException/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2/updateRequest/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2alpha1/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2alpha1/cleanupPolicy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2alpha1/clusterCleanupPolicy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2alpha1/globalContextEntry/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2alpha1/policyException/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2beta1/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2beta1/cleanupPolicy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2beta1/clusterCleanupPolicy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2beta1/clusterPolicy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2beta1/policy/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/kyverno/v2beta1/policyException/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/reports/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/reports/v1/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/reports/v1/clusterEphemeralReport/</loc>
+         <lastmod>2024-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.12/reports/v1/ephemeralReport/</loc>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1/clusterPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1/generateRequest/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1/policy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1alpha1/clusterReportChangeRequest/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1alpha1/reportChangeRequest/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1alpha2/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1alpha2/clusterReportChangeRequest/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.6/kyverno/v1alpha2/reportChangeRequest/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1/clusterPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1/generateRequest/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1/policy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1alpha2/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1alpha2/admissionReport/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1alpha2/backgroundScanReport/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1alpha2/clusterAdmissionReport/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1alpha2/clusterBackgroundScanReport/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v1beta1/updateRequest/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v2alpha1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v2alpha1/cleanupPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v2alpha1/clusterCleanupPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v2alpha1/policyException/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v2beta1/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v2beta1/clusterPolicy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jsonnet-libs.github.io/kyverno-libsonnet/1.9/kyverno/v2beta1/policy/</loc>
-         <lastmod>2024-05-14</lastmod>
+         <lastmod>2024-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
